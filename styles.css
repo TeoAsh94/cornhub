@@ -1,0 +1,208 @@
+body {
+	position: relative;
+	top: 0;
+	margin: 0;
+	background-color: black;
+  }
+
+h1 {
+	position: absolute;
+	font-size: 50px;
+	font-family: "Comic Sans MS";
+	color: rgb(237, 181, 26);
+	background-color: rgb(54, 54, 54);
+	width: max-content;
+	padding: 10px;
+	border: 4px groove gray;
+	border-radius: 10px;
+	z-index: 5;
+	margin: 10px;
+	animation: logo linear 6s;
+  -webkit-animation: logo linear 6s;
+  -moz-animation: logo linear 6s;
+  -o-animation: logo linear 6s;
+  -ms-animation: logo linear 6s;
+  }
+
+.background {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: -1;
+  }
+
+.top {
+	position: relative;
+	left: 4px;
+	animation: top linear 6s;
+  -webkit-animation: top linear 6s;
+  -moz-animation: top linear 6s;
+  -o-animation: top linear 6s;
+  -ms-animation: top linear 6s;
+	opacity: 33%;
+  }
+
+.middle {
+	animation: middle linear 6s;
+  -webkit-animation: middle linear 6s;
+  -moz-animation: middle linear 6s;
+  -o-animation: middle linear 6s;
+  -ms-animation: middle linear 6s;
+	opacity: 33%;
+  }
+
+.bottom {
+	animation: bottom linear 6s;
+  -webkit-animation: bottom linear 6s;
+  -moz-animation: bottom linear 6s;
+  -o-animation: bottom linear 6s;
+  -ms-animation: bottom linear 6s;
+	opacity: 33%;
+  }
+
+@keyframes top {
+  0% {opacity:0;}
+  16.66% {opacity:0;}
+  33.33% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-moz-keyframes top {
+  0% {opacity:0;}
+  16.66% {opacity:0;}
+  33.33% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-webkit-keyframes top {
+  0% {opacity:0;}
+  16.66% {opacity:0;}
+  33.33% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-o-keyframes top {
+  0% {opacity:0;}
+  16.66% {opacity:0;}
+  33.33% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-ms-keyframes top {
+  0% {opacity:0;}
+  16.66% {opacity:0;}
+  33.33% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@keyframes middle {
+  0% {opacity:0;}
+  33.33% {opacity:0;}
+  50% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-moz-keyframes middle {
+  0% {opacity:0;}
+  33.33% {opacity:0;}
+  50% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-webkit-keyframes middle {
+  0% {opacity:0;}
+  33.33% {opacity:0;}
+  50% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-o-keyframes middle {
+  0% {opacity:0;}
+  33.33% {opacity:0;}
+  50% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@-ms-keyframes middle {
+  0% {opacity:0;}
+  33.33% {opacity:0;}
+  50% {opacity:1;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+  }
+
+@keyframes bottom {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+}
+
+@-moz-keyframes bottom {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+}
+
+@-webkit-keyframes bottom {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+}
+
+@-o-keyframes bottom {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+}
+
+@-ms-keyframes bottom {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  66.67% {opacity:1;}
+  100% {opacity:33%;}
+}
+
+@keyframes logo {
+  0% {opacity:0;}
+  66.67% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes logo {
+  0% {opacity:0;}
+  66.67% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes logo {
+  0% {opacity:0;}
+  66.67% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes logo {
+  0% {opacity:0;}
+  66.67% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes logo {
+  0% {opacity:0;}
+  66.67% {opacity:0;}
+  100% {opacity:1;}
+}
